@@ -1,0 +1,194 @@
+header {
+    position: relative;
+    width: 100%;
+    min-height: auto;
+    overflow-y: hidden;
+    background: #bdc3c7;
+    background: -webkit-linear-gradient(to left, #bdc3c7, #2c3e50);
+    background: linear-gradient(to left, #333, #2c3e50);
+    color: white;
+    text-align: center;
+         display: flex;
+  flex-direction: column;
+  justify-content: center;
+    
+}
+@media (min-width: 768px) {
+    header {
+        min-height: 100%;
+    }
+    header .header-content {
+        text-align: center;
+        padding: 0;
+        height: 100vh;
+    }
+    header .header-content .header-content-inner {
+        max-width: none;
+        margin: 0;
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+    header {
+        font-size: 35px;
+    }
+    header .device-container {
+        max-width: none;
+        max-height: calc(0vh);
+        margin: 100px auto 0;
+    }
+    .bait {
+        font: 200px Helvetica, Sans-Serif;
+        display: inline;
+        position: relative;
+        letter-spacing: -5px;
+        left: -120px;
+    }
+    .bait:after {
+        content: "BAIT/";
+        position: absolute;
+        left: 10px;
+        top: 5px;
+        color: rgba(0, 0, 0, 0.1);
+    }
+    .main {
+        font: 200px Helvetica, Sans-Serif;
+        display: inline;
+        position: relative;
+        left: 120px;
+        letter-spacing: -5px;
+    }
+    .main:after {
+        content: "/MAIN";
+        position: absolute;
+        left: 10px;
+        top: 5px;
+        color: rgba(0, 0, 0, 0.1);
+    }
+    .table {
+    border-bottom:0px !important;    
+}
+.table th, .table td {
+    border: 1px !important;
+    text-align: center;
+    justify-content: center;
+    margin-right: 100px
+}
+.fixed-table-container {
+    border:0px !important;
+}
+    .pic{
+        display:none;        
+    }
+}
+@media (max-width: 768px) {
+    header {
+        min-height: 100%;
+        padding: 55% 0 50px;
+    }
+    header .header-content {
+        text-align: center;
+        padding: 0;
+        height: 100vh;
+    }
+    header .header-content .header-content-inner {
+        max-width: none;
+        margin: 0;
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+    header {
+        font-size: 35px;
+    }
+    header .device-container {
+        max-width: none;
+        max-height: calc(0vh);
+        margin: 100px auto 0;
+    }
+    .bait {
+        font: 80px Helvetica, Sans-Serif;
+        display: inline;
+        position: relative;
+        letter-spacing: -5px;
+    }
+    .bait:after {
+        content: "BAIT/";
+        position: absolute;
+        left: 5px;
+        top: 5px;
+        color: rgba(0, 0, 0, 0.1);
+    }
+    .main {
+        font: 80px Helvetica, Sans-Serif;
+        display: inline;
+        position: relative;
+        letter-spacing: -5px;
+    }
+    .main:after {
+        content: "/MAIN";
+        position: absolute;
+        left: 5px;
+        top: 5px;
+        color: rgba(0, 0, 0, 0.1);
+    }
+	table, thead, tbody, th, td, tr { 
+		display: none;
+
+	}
+    .pic{
+       text-align: center;
+    }
+    
+        .pic li{
+            color: white;
+        margin-top: 25px;
+            list-style-type: none;
+    list-style:none;
+    }
+    
+    .pic img{
+        margin-right: 5px;
+    }
+}
+
+.staff{
+    background: -webkit-linear-gradient(#DCE35B, #45B649);
+    background: linear-gradient(#DCE35B, #45B649);
+        min-height: 100%;
+    display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.discord{
+    background: -webkit-linear-gradient(#348F50, #56B4D3);
+    background: linear-gradient(#348F50, #56B4D3);
+              min-height: 100%;
+    display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.league{
+    background: -webkit-linear-gradient(#4CB8C4, #3CD3AD);
+    background: linear-gradient(#4CB8C4, #3CD3AD);
+          min-height: 100%;
+    display: flex;
+  flex-direction: column;
+  justify-content: center;
+    text-align: center;
+}
+
+.faq{
+    background: -webkit-linear-gradient(#314755, #26a0da);
+    background: linear-gradient(#314755, #26a0da);
+          min-height: 100%;
+    display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+
+
+
